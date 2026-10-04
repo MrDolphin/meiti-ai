@@ -4,20 +4,26 @@
 
 # ALQQ 自媒体运营助手
 
-### 一次创作，多平台分发 · Windows 桌面端 2.1.4
+### 一次创作，多平台分发 · Windows 桌面端 2.1.6
 
 从选题、写作和配图，到多账号发布与定时计划，在一个工作台完成。
 
+**ALQQ.CN · 自媒体内容创作与运营工作台**。让个人创作者、内容工作室和品牌运营团队少做重复搬运，把时间留给内容。
+
 [![使用](https://img.shields.io/badge/桌面端-免费下载-success)](#-使用与费用)
 [![平台](https://img.shields.io/badge/内容平台-22_个-blue)](#-支持的平台)
-[![下载](https://img.shields.io/badge/Windows_x64-2.1.4-2ea44f)](https://github.com/zhuixin8/meiti-ai/releases/tag/v2.1.4)
+[![下载](https://img.shields.io/badge/Windows_x64-2.1.6-2ea44f)](https://www.alqq.cn/download/desktop)
 [![授权](https://img.shields.io/badge/授权-专有软件-lightgrey)](LICENSE)
 
-### 📥 [下载 Windows 桌面端 2.1.4](https://github.com/zhuixin8/meiti-ai/releases/download/v2.1.4/ALQQ_2.1.4_x64-setup.exe) ｜ [官网备用下载](https://www.alqq.cn/download/desktop)
+### 📥 [官网下载 Windows 桌面端 2.1.6（推荐）](https://www.alqq.cn/download/desktop)
 
-Windows 10 / 11 x64 · 约 189.8 MiB · [更新与校验说明](RELEASE-2.1.4.md) · [开发进度](DEVELOPMENT.md)
+[Microsoft Store 下载](https://apps.microsoft.com/detail/9P75HV6KJV0N?hl=zh-CN&gl=CN) ｜ [GitHub 备用下载](https://github.com/zhuixin8/meiti-ai/releases/download/v2.1.6/ALQQ_2.1.6_x64-setup.exe)
 
-更新日期：2026-09-30。官网版已发布；微软商店中国区版本已提交，尚未确认审核通过。
+优先从官网下载，获取当前官网版及安装说明；也可选择微软商店安装。两个渠道分别更新，请选择一个，不要互相覆盖安装。
+
+Windows 10 / 11 x64 · 约 190.2 MiB · [更新与校验说明](RELEASE-2.1.6.md) · [开发进度](DEVELOPMENT.md)
+
+更新日期：2026-10-04。官网 2.1.6 已公开发布并启用更新推送；Microsoft Store 2.1.6.0 更新已提交审核，商店实际可下载版本以页面为准。
 
 [官网](https://www.alqq.cn/) · [免费注册](https://www.alqq.cn/register) · [功能介绍](#-主要功能) · [交流与反馈](#-交流与反馈)
 
@@ -29,9 +35,11 @@ Windows 10 / 11 x64 · 约 189.8 MiB · [更新与校验说明](RELEASE-2.1.4.md
 
 ## 2026-10-04 维护进展
 
-桌面会话协调与本机功能保护已提交，配套后端和 Web 已部署。新 **2.1.6 官网 EXE / 2.1.6.0 商店 MSIX** 已生成并完成构建校验，待实机安装验收；公开稳定下载暂仍保留 2.1.4，不把构建测试当作实机安装通过。主要改善身份确认与重连、账号切换隔离、本机扫描回执恢复、安装前草稿保存，以及 Windows 用户级凭据保护。商店包与官网版分别更新，尚未提交本次微软审核。
+**Windows 官网版 2.1.6 已正式发布**，GitHub 和官网安装包一致，完整下载、SHA-256 与更新器签名已核对；覆盖安装、自动登录、手动关闭百家号登录窗口后不再重弹、四个紧凑计划入口已有本批验收记录，用户也确认同机卸载后重新安装正常。
 
-具体完成项、文件校验与待验收项见 [2.1.6 候选包说明](RELEASE-2.1.6.md) 和 [开发进度](DEVELOPMENT.md)。
+本版改善桌面会话确认与重连、账号切换隔离、本机扫描回执恢复、安装前草稿保存及 Windows 用户级凭据保护；正常连接不再占用整块提示区域。官网版通过 ALQQ 更新，商店版通过 Microsoft Store 更新，请选择一个渠道安装，不用官网 EXE 覆盖商店版。
+
+微软商店中国区已有产品页面，**2.1.6.0 更新仍待认证**。发布者资料已改为 **ALQQ.CN**，额外账号验证正在进行，后续商店包需按微软要求同步显示名称、递增包版本并重新提交；不能据此宣称商店已分发改名后的新包。具体校验与边界见 [2.1.6 发布说明](RELEASE-2.1.6.md) 和 [开发进度](DEVELOPMENT.md)。
 
 ## 💡 ALQQ 能做什么
 
@@ -39,9 +47,19 @@ Windows 10 / 11 x64 · 约 189.8 MiB · [更新与校验说明](RELEASE-2.1.4.md
 
 Windows 桌面端使用你的电脑和网络完成浏览器发布；网页端方便管理内容、账号与计划；Linux 执行节点适合需要长期在线的自托管任务。三种方式共用 ALQQ 账号和业务数据。
 
+### 选择下载渠道
+
+| 渠道 | 入口 | 更新方式 |
+| --- | --- | --- |
+| **官网下载（推荐）** | [下载 Windows 桌面端](https://www.alqq.cn/download/desktop) | 由 ALQQ 提供官网版更新 |
+| Microsoft Store | [商店应用页面](https://apps.microsoft.com/detail/9P75HV6KJV0N?hl=zh-CN&gl=CN) | 由微软商店分发审核通过的版本，可能晚于官网 |
+| GitHub 备用 | [2.1.6 Release](https://github.com/zhuixin8/meiti-ai/releases/tag/v2.1.6) | 备用安装包与校验资料 |
+
+桌面端免费下载安装；账号套餐、平台 AI 和其他服务仍按现有规则收费。商店尚在审核的更新不等于已可下载。
+
 ### 开始使用
 
-1. [注册 ALQQ 账号](https://www.alqq.cn/register)，下载并登录桌面端，或先使用网页端。
+1. [注册 ALQQ 账号](https://www.alqq.cn/register)，优先从[官网下载桌面端](https://www.alqq.cn/download/desktop)并登录，或先使用网页端。
 2. 在「账号管理」中添加平台账号，并按页面提示完成扫码或浏览器登录。
 3. 配置自己的 AI / 图片服务，或使用套餐允许的平台资源；创建内容、检查预览后，选择账号发布。
 
@@ -49,13 +67,17 @@ Windows 桌面端使用你的电脑和网络完成浏览器发布；网页端方
 
 ---
 
-## 🆕 桌面端 2.1.4
+## 🆕 桌面端 2.1.6
 
-这一版将安装后的名称统一为 **ALQQ 自媒体运营助手**，重点改善账号同步、外部连接体验和发布结果核验。官网与 GitHub 提供同一份经过完整下载和更新器签名校验的安装包。
+这一版继续使用 **ALQQ 自媒体运营助手** 中文名称，重点改善本机会话、账号登录取消、紧凑计划入口与发布诊断，同时保留账号同步、外部连接和发布结果核验改进。官网与 GitHub 提供同一份已验收、经过完整下载和更新器签名校验的安装包。
 
 | 升级点 | 说明 |
 |---|---|
-| **中文名称与升级兼容** | 统一显示名称，保留原有程序标识和升级路径 |
+| **桌面会话更可靠** | 合并身份准备请求，重连和切换账号时隔离旧会话结果 |
+| **关闭即取消登录** | 手动关闭平台登录窗口后不自动重新弹出，取消不误报浏览器故障 |
+| **正常状态更安静** | 本机连接正常时不再显示大块就绪提示，异常仍提供恢复入口 |
+| **四个紧凑计划入口** | AI 文章、Word 供稿、图文动态、已有视频并列选择，能力以套餐和执行端为准 |
+| **中文名称与升级兼容** | 保留原有程序标识和升级路径；发布者显示名称统一为 ALQQ.CN 的流程正在进行 |
 | **账号同步更明确** | 合并重复的批量同步入口，按已选账号或当前筛选操作 |
 | **更紧凑的设置页** | 优化外部连接额度摘要、连接详情和本地存储布局 |
 | **发布前检查** | 外部工具可按授权查询身份、桌面与引擎状态；执行前仍检查账号、媒体和额度 |
@@ -64,19 +86,19 @@ Windows 桌面端使用你的电脑和网络完成浏览器发布；网页端方
 
 **系统要求**：Windows 10 / 11 x64。安装包包含发布所需运行环境；缺少 Microsoft WebView2 时，请按安装器提示安装。桌面端不支持 Windows 7 / 8。
 
-**已有用户升级**：保存编辑、等待发布任务结束，再通过「设置 → 关于 → 检查更新」或退出 ALQQ 后运行完整安装包。**2.1.4 需要完整升级，旧版内容热更新不能替代安装包**。无需先卸载旧版，请保留用户数据目录；已安装本次最终 2.1.4 包的用户无需重复安装。同版本早期测试包请按发布说明的 SHA-256 核对。
+**已有用户升级**：保存编辑、等待发布任务结束，再通过「设置 → 关于 → 检查更新」或退出 ALQQ 后运行完整安装包。**2.1.6 需要完整升级，旧版内容热更新不能替代安装包**。无需先卸载旧版，请保留用户数据目录；已安装本次最终 2.1.6 包的用户无需重复安装。同版本早期测试包请按发布说明的 SHA-256 核对。
 
-普通用户下载 `.exe` 即可。详细日志、签名与文件校验见 [2.1.4 发布说明](RELEASE-2.1.4.md)。官网版和商店版分别更新，不用商店上传 MSIX 覆盖官网版。
+普通用户下载 `.exe` 即可。详细日志、签名与文件校验见 [2.1.6 发布说明](RELEASE-2.1.6.md)。官网版和商店版分别更新，不用商店上传 MSIX 覆盖官网版。
 
 ### 开发与上架进度
 
 | 项目 | 当前状态 |
 | --- | --- |
-| Windows 官网版 2.1.4 | 官网和 GitHub 已公开发布，更新入口已启用 |
+| Windows 官网版 2.1.6 | 官网和 GitHub 已公开发布，更新入口已启用 |
 | Web 与配套服务 | 连接布局、发布前预检、调用分类和结果核验改进已上线 |
 | WorkBuddy / 豆包连接 | 自定义 OAuth 接入、供稿、查询与去重可按权益使用；不是官方市场上架声明 |
 | 连接器发布 | 提出请求后在 ALQQ 人工确认；直接发布仍未开放，MCP 定时未开放 |
-| Microsoft Store | 中国区 2.1.4.0 已提交，待审核结果；未确认商店可下载 |
+| Microsoft Store | 中国区已有产品页面；2.1.6.0 更新已提交认证，发布者改名另处于账号验证阶段 |
 | WorkBuddy 创作专家 | 仍在完善和回归，暂缓市场提交 |
 
 后续计划与测试范围见 [开发进度](DEVELOPMENT.md)，不将待办写成已完成功能。
@@ -89,7 +111,7 @@ Windows 桌面端使用你的电脑和网络完成浏览器发布；网页端方
 
 账号、计划、内容与日志统一在 [ALQQ 主站](https://www.alqq.cn/) 管理；节点需要对应套餐或授权。
 
-当前公开更新入口：[**Edge 1.1.8**](https://github.com/zhuixin8/meiti-ai/releases/tag/edge-v1.1.8)，本次基线支持 **amd64**。新基线 ARM64 尚未完成验收，请勿向 ARM64 机器安装 amd64 包，也不要据此覆盖已有节点。Edge 与 Windows 桌面端分别安装、分别升级。
+当前公开更新入口：[**Edge 1.1.8**](https://github.com/zhuixin8/meiti-ai/releases/tag/edge-v1.1.8)，支持 **Linux x64（amd64）**。本轮不再推进 Linux ARM64 适配，请勿向 ARM64 机器安装 amd64 包。Edge 与 Windows 桌面端分别安装、分别升级；Windows 安装包不用于 Linux 节点。
 
 <details>
 <summary>安装与日常管理</summary>
@@ -124,7 +146,7 @@ docker compose restart
 
 ## 🖼️ 界面预览
 
-以下保留 **2.1.0 正式版前端**的演示截图，不冒充 2.1.4 新界面；账号同步、连接详情等布局以当前程序为准。截图使用虚构演示数据，不包含真实用户账号、文章或密钥。统计、热点及任务状态不代表实际运营结果。点击图片可查看大图。
+以下保留 **2.1.0 正式版前端**的演示截图，不冒充 2.1.6 新界面；账号同步、连接详情等布局以当前程序为准。截图使用虚构演示数据，不包含真实用户账号、文章或密钥。统计、热点及任务状态不代表实际运营结果。点击图片可查看大图。
 
 ### 新版桌面登录
 
@@ -321,6 +343,10 @@ ALQQ 支持免费注册，桌面端可免费下载。
 | **Windows 桌面端** | 日常创作、本机发布、使用自己的 AI / 图片服务 | 在你的电脑上执行，需要客户端在线 |
 | **Linux 执行节点** | 不方便让个人电脑长期挂机 | 在你自己的服务器上执行，需要完成配对与授权；OpenAPI 远程视频直链发布另需满足节点能力、绑定与权限 |
 
+**macOS 状态**：Mac 安装包仍处于可行性评估，尚未发布，也未完成 macOS 实机验收；当前 Windows 安装包不能安装到 Mac。Linux 节点的 ARM64 限制与苹果芯片 Mac 的适配是两件不同的事。
+
+**发布者名称**：品牌与官网统一为 **ALQQ.CN / https://www.alqq.cn/**。微软账号的名称变更正在验证，商店页面或旧安装包暂时仍可能显示 `ALQQ.cc`；现有技术包标识保留以延续安装和更新，不代表官网地址改成了 `.cc`。
+
 **数据如何保存**：图片缓存与草稿可保存在本机；平台账号登录信息加密保存在主站，桌面端发布时按授权获取，不作为本地草稿或缓存保存。桌面端仍需联网使用账号、计划和所选 AI / 图片服务。
 
 **多账号如何运行**：账号使用相互隔离的发布环境，同一账号的任务依次执行；隔离环境不会自动更换网络 IP，也需要遵守各平台规则。
@@ -391,11 +417,13 @@ Create article drafts from topics or reference material, adjust the writing styl
 
 Use the **web app** for content and account management, the **Windows desktop app** to publish from your own computer, or a **Linux execution node** for tasks on your own server.
 
-**Desktop 2.1.4** uses the Chinese display name **ALQQ 自媒体运营助手**, streamlines account synchronization and connector settings, adds publishing-readiness checks, and improves result verification and same-version upgrades. Windows 10 / 11 x64 is required. Save your work and wait for publishing tasks to finish before using the **full installer**. [Download and release notes](RELEASE-2.1.4.md).
+**Desktop 2.1.6** is publicly available under the Chinese display name **ALQQ 自媒体运营助手**. It improves desktop session readiness, login cancellation, compact scheduling entries, account synchronization and publishing-result verification. Windows 10 / 11 x64 is required. Save your work and wait for publishing tasks to finish before using the **full installer**. [Download from the official website (recommended)](https://www.alqq.cn/download/desktop), [Microsoft Store](https://apps.microsoft.com/detail/9P75HV6KJV0N?hl=zh-CN&gl=CN), or [release notes and GitHub mirror](RELEASE-2.1.6.md). Choose one installation channel; do not install one over the other.
 
-WorkBuddy and Doubao can connect through user-authorized OAuth for draft submission and receipt queries, subject to ALQQ entitlements. Publishing requests require review in ALQQ; direct and scheduled MCP publishing are not currently open. The Microsoft Store build has been submitted for China, but approval and availability are not yet confirmed. The WorkBuddy creative expert remains under validation. See [development status](DEVELOPMENT.md).
+WorkBuddy and Doubao can connect through user-authorized OAuth for draft submission and receipt queries, subject to ALQQ entitlements. Publishing requests require review in ALQQ; direct and scheduled MCP publishing are not currently open. The Microsoft Store product page is available for China; the 2.1.6.0 update is submitted for certification, not confirmed as distributed. The publisher display name is being aligned with **ALQQ.CN**, with additional account verification still in progress. The WorkBuddy creative expert remains under validation. See [development status](DEVELOPMENT.md).
 
 Registration and desktop downloads are free. Your AI / image providers charge for their services; hosted resources and quotas depend on your ALQQ plan or permissions. Platform login credentials are encrypted on the ALQQ service and supplied to authorized desktop sessions when needed. Local drafts and image caches do not replace the online service. Login verification and platform reviews may require your attention.
+
+**Official website: [ALQQ.CN](https://www.alqq.cn/).** Windows desktop and Linux x64 node packages are available; no macOS installer has been released or validated. Linux ARM64 adaptation is not being pursued in this release cycle.
 
 **[Register](https://www.alqq.cn/register) or download directly — joining a chat group is optional.** The contacts above are available for questions and feedback. ALQQ is proprietary software; this repository contains product information and distribution resources, not its business source code. See [LICENSE](LICENSE).
 
