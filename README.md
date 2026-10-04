@@ -23,7 +23,7 @@
 
 Windows 10 / 11 x64 · 约 190.2 MiB · [更新与校验说明](RELEASE-2.1.6.md) · [开发进度](DEVELOPMENT.md)
 
-更新日期：2026-10-04。官网 2.1.6 已公开发布并启用更新推送；Microsoft Store 2.1.6.0 更新已提交审核，商店实际可下载版本以页面为准。
+更新日期：2026-10-04。官网 2.1.6 已公开发布并启用更新推送；Microsoft Store 更新已撤回至草稿，ALQQ.CN 新品牌包待验证和重新提交；商店实际可下载版本以页面为准。
 
 [官网](https://www.alqq.cn/) · [免费注册](https://www.alqq.cn/register) · [功能介绍](#-主要功能) · [交流与反馈](#-交流与反馈)
 
@@ -39,7 +39,7 @@ Windows 10 / 11 x64 · 约 190.2 MiB · [更新与校验说明](RELEASE-2.1.6.md
 
 本版改善桌面会话确认与重连、账号切换隔离、本机扫描回执恢复、安装前草稿保存及 Windows 用户级凭据保护；正常连接不再占用整块提示区域。官网版通过 ALQQ 更新，商店版通过 Microsoft Store 更新，请选择一个渠道安装，不用官网 EXE 覆盖商店版。
 
-微软商店中国区已有产品页面，**2.1.6.0 更新仍待认证**。发布者资料已改为 **ALQQ.CN**，额外账号验证正在进行，后续商店包需按微软要求同步显示名称、递增包版本并重新提交；不能据此宣称商店已分发改名后的新包。具体校验与边界见 [2.1.6 发布说明](RELEASE-2.1.6.md) 和 [开发进度](DEVELOPMENT.md)。
+微软商店中国区已有产品页面。原 2.1.6.0 更新已取消认证并返回草稿；**ALQQ.CN 新品牌 MSIX 已在本地准备，尚未上传或重提**。账号验证正在进行，产品身份页仍显示旧发布者 ALQQ.cc，待名称同步后再校验提交；已上架版本不受本次撤回影响。具体校验与边界见 [2.1.6 发布说明](RELEASE-2.1.6.md) 和 [开发进度](DEVELOPMENT.md)。
 
 ## 💡 ALQQ 能做什么
 
@@ -98,7 +98,7 @@ Windows 桌面端使用你的电脑和网络完成浏览器发布；网页端方
 | Web 与配套服务 | 连接布局、发布前预检、调用分类和结果核验改进已上线 |
 | WorkBuddy / 豆包连接 | 自定义 OAuth 接入、供稿、查询与去重可按权益使用；不是官方市场上架声明 |
 | 连接器发布 | 提出请求后在 ALQQ 人工确认；直接发布仍未开放，MCP 定时未开放 |
-| Microsoft Store | 中国区已有产品页面；2.1.6.0 更新已提交认证，发布者改名另处于账号验证阶段 |
+| Microsoft Store | 中国区已有产品页面；更新已撤回至草稿，新品牌包待发布者验证和重提 |
 | WorkBuddy 创作专家 | 仍在完善和回归，暂缓市场提交 |
 
 后续计划与测试范围见 [开发进度](DEVELOPMENT.md)，不将待办写成已完成功能。
@@ -419,7 +419,7 @@ Use the **web app** for content and account management, the **Windows desktop ap
 
 **Desktop 2.1.6** is publicly available under the Chinese display name **ALQQ 自媒体运营助手**. It improves desktop session readiness, login cancellation, compact scheduling entries, account synchronization and publishing-result verification. Windows 10 / 11 x64 is required. Save your work and wait for publishing tasks to finish before using the **full installer**. [Download from the official website (recommended)](https://www.alqq.cn/download/desktop), [Microsoft Store](https://apps.microsoft.com/detail/9P75HV6KJV0N?hl=zh-CN&gl=CN), or [release notes and GitHub mirror](RELEASE-2.1.6.md). Choose one installation channel; do not install one over the other.
 
-WorkBuddy and Doubao can connect through user-authorized OAuth for draft submission and receipt queries, subject to ALQQ entitlements. Publishing requests require review in ALQQ; direct and scheduled MCP publishing are not currently open. The Microsoft Store product page is available for China; the 2.1.6.0 update is submitted for certification, not confirmed as distributed. The publisher display name is being aligned with **ALQQ.CN**, with additional account verification still in progress. The WorkBuddy creative expert remains under validation. See [development status](DEVELOPMENT.md).
+WorkBuddy and Doubao can connect through user-authorized OAuth for draft submission and receipt queries, subject to ALQQ entitlements. Publishing requests require review in ALQQ; direct and scheduled MCP publishing are not currently open. The Microsoft Store product page is available for China; the previous 2.1.6.0 certification has been canceled and returned to draft. A local **ALQQ.CN** MSIX candidate is prepared, but has not been uploaded or resubmitted. Additional account verification is still in progress, and the product identity page still requires the former publisher display name. The existing Store release remains available. The WorkBuddy creative expert remains under validation. See [development status](DEVELOPMENT.md).
 
 Registration and desktop downloads are free. Your AI / image providers charge for their services; hosted resources and quotas depend on your ALQQ plan or permissions. Platform login credentials are encrypted on the ALQQ service and supplied to authorized desktop sessions when needed. Local drafts and image caches do not replace the online service. Login verification and platform reviews may require your attention.
 
